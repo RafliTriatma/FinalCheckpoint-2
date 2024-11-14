@@ -243,28 +243,44 @@ img {
     box-shadow: 3px 3px 2px #dfdede;
 }
 
-footer {
+.wrapper-boxfooter {
     width: 100%;
-    background-image: url(./assets/image/footer.jpg);
+    height: 80vh;
+    background-image: url(./assets/image/footer.jpeg);
     background-size: cover;
+    background-position: bottom;
     /* height: 100%; */
     padding: 10px 0;
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
+}
+
+.box-footer {
+    /* background-color: #2e8b57; */
+    width: 50%;
+}
+
+.footer-link {
+    margin-left: 12vh;
+    color: white;
+    padding-top: 4vh;
+}
+
+.box-boxform {
+    width: 50%;
+    margin-right: 30vh;
+    margin-top: 4vh;
 }
 
 
 .boxform {
-    width: 300px;
+    width: 90%;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(208, 208, 208);
     backdrop-filter: blur(20px);
-    justify-content: center;
-    flex-direction: column;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20vh;
     border-radius: 10px;
-    margin-right: 4vh;
     margin-top: 2vh;
 }
 
@@ -280,27 +296,16 @@ footer {
     background: transparent;
     border: none;
     outline: none;
-    border: 1px solid white;
+    border: 1px solid rgb(208, 208, 208);
     border-radius: 0.5rem;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     padding: 20px 20px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: white;
+    color: rgb(208, 208, 208);
 }
-
-.radio-gender {
-    padding-top: 1vh;
-    margin-bottom: 2vh;
-}
-
-.radio-gender label {
-    font-size: 16px;
-    color: white;
-}
-
 
 .box1 .input-comment{
     width: 100%;
@@ -313,15 +318,15 @@ footer {
     background: transparent;
     border: none;
     outline: none;
-    border: 1px solid white;
+    border: 1px solid rgb(208, 208, 208);
     border-radius: 0.5rem;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     padding: 10px 20px 20px 20px;
 }
 
 .input-comment textarea::placeholder {
-    color: white;
+    color: rgb(208, 208, 208);
 }
 
 .boxform .btnsubmit {
